@@ -12,7 +12,6 @@ my $insert =',"pinned_tabs":[';
 
 for my $i (@urls) {
 	if(  \$i == \$urls[-1]  ) {
-		print "last itteration \n";
 		$insert .= '{"url":"' . $i . '"}],';
 	} else {
 		$insert .= '{"url":"' . $i . '"},';
