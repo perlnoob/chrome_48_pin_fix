@@ -4,9 +4,9 @@ use warnings;
 ## Add your preference file for chrome, add the URL's you want in the @urls array (you can add more than just 2), close chrome and run... Enjoy
 
 
-my $pref_file = 'chrome_preferences_file';
+my $pref_file = 'c:\path\to\pref\file';
 
-my @urls = ('URL1','URL2');
+my @urls = ('http://URL1','http://URL2','http://etc');
 
 my $insert =',"pinned_tabs":[';
 
